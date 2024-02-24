@@ -99,6 +99,11 @@ button{
   flex: 1;
   text-align: center;
   height: 100%;
-  background-color: #E5E7EB;
+  background-color: #a1a1a1;
   border: none;
+}
+
+input::placeholder{
+  color: #F9FAF8;
+  font-size: 18px;
 }
