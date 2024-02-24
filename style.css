@@ -45,7 +45,7 @@ a{
   font-size: 18px;
 }
 
-/* bottom part of header */
+/* bottom part of the header */
 
 .bottom-header{
   display: flex;
@@ -106,4 +106,48 @@ button{
 input::placeholder{
   color: #F9FAF8;
   font-size: 18px;
+}
+
+/* section one */
+
+.section-one{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 18px;
+  color: #1F2937;
+  margin-bottom: 80px;
+}
+
+h2{
+  font-size: 36px;
+  color: #1F2937;
+  padding: 15px;
+}
+
+.objects{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.item{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 200px;
+}
+
+img{
+  display: flex;
+  width: 170px;
+  height: 170px;
+  border: 3px solid #3882F6;
+  border-radius: 15px;
+  margin: 0 auto;
+}
+
+.text{
+  display: flex;
+  text-align: center;
 }
