@@ -151,3 +151,37 @@ img{
   display: flex;
   text-align: center;
 }
+
+/* section two */
+
+.section-two{
+  display: flex;
+  flex-direction: column;
+  background-color: #E5E7EB;
+  padding: 80px 350px;
+}
+
+.quote{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin: 0 350px; */
+}
+
+.quoter{
+  display: flex;
+  justify-content: flex-end;
+  /* margin: 0 400px; */
+}
+
+.quote p{
+  color: #1F2937;
+  font-style: italic;
+  font-size: 36px;
+}
+
+.quoter p{
+  color: #1F2937;
+  font-weight: bold;
+  font-size: 20px;
+}
